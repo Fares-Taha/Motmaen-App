@@ -1,0 +1,6 @@
+-keep class org.tensorflow.** { *; }
+-keep class org.tensorflow.lite.** { *; }
+-keep class org.tensorflow.lite.gpu.** { *; }
+-keep class javax.lang.model.element.** { *; }
+-dontwarn org.tensorflow.**
+-dontwarn javax.lang.model.element.**
